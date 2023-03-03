@@ -1,0 +1,39 @@
+body {
+	display: grid;
+	place-items: center;
+	gap: 1rem;
+}
+
+hr {
+	width: 80vw;
+}
+
+header {
+	text-align: center;
+}
+
+header > h1 {
+	padding: .5rem 1rem;
+	border: #234 3px dashed;
+}
+
+main {
+	display: flex;
+	border: #234 1px solid;
+	padding: 1rem 2.5rem;
+	min-height: 25rem;
+	max-width: 50rem;
+	box-shadow: 5px 5px 0px #234;
+}
+
+.left-side {
+	width: 25rem;
+	border-right: #234 1px dashed;
+	padding-right: 1.5rem;
+}
+
+.right-side {
+	width: 25rem;
+	border-left: #234 1px dashed;
+	padding-left: 1.5rem;
+}
